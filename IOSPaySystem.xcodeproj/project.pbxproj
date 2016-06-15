@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F25F7ECF1D1007D800B6FF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F7ECE1D1007D800B6FF8F /* AppDelegate.swift */; };
+		F25F7ED11D1007D800B6FF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F7ED01D1007D800B6FF8F /* ViewController.swift */; };
+		F25F7ED41D1007D800B6FF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25F7ED21D1007D800B6FF8F /* Main.storyboard */; };
+		F25F7ED61D1007D800B6FF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25F7ED51D1007D800B6FF8F /* Assets.xcassets */; };
+		F25F7ED91D1007D800B6FF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25F7ED71D1007D800B6FF8F /* LaunchScreen.storyboard */; };
+		F817D586ED0E352EE1E457F2 /* Pods_IOSPaySystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6F5D31EE83FD367C51B954 /* Pods_IOSPaySystem.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EEE5EC04BF19940C97ABDDC /* Pods-IOSPaySystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSPaySystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSPaySystem/Pods-IOSPaySystem.release.xcconfig"; sourceTree = "<group>"; };
+		7B6F5D31EE83FD367C51B954 /* Pods_IOSPaySystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSPaySystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB97F8D11E5A66378DB8AB7 /* Pods-IOSPaySystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSPaySystem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSPaySystem/Pods-IOSPaySystem.debug.xcconfig"; sourceTree = "<group>"; };
+		F25F7ECB1D1007D800B6FF8F /* IOSPaySystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSPaySystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25F7ECE1D1007D800B6FF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F25F7ED01D1007D800B6FF8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F25F7ED31D1007D800B6FF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F25F7ED51D1007D800B6FF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = IOSPaySystem/Assets.xcassets; sourceTree = "<group>"; };
+		F25F7ED81D1007D800B6FF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F25F7EDA1D1007D800B6FF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = IOSPaySystem/Info.plist; sourceTree = "<group>"; };
+		F2E24BC81D116AB000BD9A70 /* IOSPaySystem-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSPaySystem-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25F7EC81D1007D800B6FF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F817D586ED0E352EE1E457F2 /* Pods_IOSPaySystem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53DF667D07B41F669A0B6121 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFB97F8D11E5A66378DB8AB7 /* Pods-IOSPaySystem.debug.xcconfig */,
+				1EEE5EC04BF19940C97ABDDC /* Pods-IOSPaySystem.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0614DC16C4E154061CA439B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B6F5D31EE83FD367C51B954 /* Pods_IOSPaySystem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F25F7EC21D1007D800B6FF8F = {
+			isa = PBXGroup;
+			children = (
+				F25F7EE11D100A1A00B6FF8F /* Others */,
+				F25F7EE01D1009F000B6FF8F /* Views */,
+				F25F7ECD1D1007D800B6FF8F /* IOSPaySystem */,
+				F25F7ECC1D1007D800B6FF8F /* Products */,
+				53DF667D07B41F669A0B6121 /* Pods */,
+				B0614DC16C4E154061CA439B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F25F7ECC1D1007D800B6FF8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25F7ECB1D1007D800B6FF8F /* IOSPaySystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25F7ECD1D1007D800B6FF8F /* IOSPaySystem */ = {
+			isa = PBXGroup;
+			children = (
+				F25F7ECE1D1007D800B6FF8F /* AppDelegate.swift */,
+				F25F7ED01D1007D800B6FF8F /* ViewController.swift */,
+				F2E24BC81D116AB000BD9A70 /* IOSPaySystem-Bridging-Header.h */,
+			);
+			path = IOSPaySystem;
+			sourceTree = "<group>";
+		};
+		F25F7EE01D1009F000B6FF8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F25F7ED71D1007D800B6FF8F /* LaunchScreen.storyboard */,
+				F25F7ED21D1007D800B6FF8F /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F25F7EE11D100A1A00B6FF8F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F25F7EDA1D1007D800B6FF8F /* Info.plist */,
+				F25F7ED51D1007D800B6FF8F /* Assets.xcassets */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F25F7ECA1D1007D800B6FF8F /* IOSPaySystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25F7EDD1D1007D800B6FF8F /* Build configuration list for PBXNativeTarget "IOSPaySystem" */;
+			buildPhases = (
+				8E3688501DF0BE52031F4B0E /* 📦 Check Pods Manifest.lock */,
+				F25F7EC71D1007D800B6FF8F /* Sources */,
+				F25F7EC81D1007D800B6FF8F /* Frameworks */,
+				F25F7EC91D1007D800B6FF8F /* Resources */,
+				9FA2709186CAA761A991D16B /* 📦 Embed Pods Frameworks */,
+				EBF7EE1EE8D00207C8C636D8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSPaySystem;
+			productName = IOSPaySystem;
+			productReference = F25F7ECB1D1007D800B6FF8F /* IOSPaySystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25F7EC31D1007D800B6FF8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Slash Global";
+				TargetAttributes = {
+					F25F7ECA1D1007D800B6FF8F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F25F7EC61D1007D800B6FF8F /* Build configuration list for PBXProject "IOSPaySystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25F7EC21D1007D800B6FF8F;
+			productRefGroup = F25F7ECC1D1007D800B6FF8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25F7ECA1D1007D800B6FF8F /* IOSPaySystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F25F7EC91D1007D800B6FF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25F7ED91D1007D800B6FF8F /* LaunchScreen.storyboard in Resources */,
+				F25F7ED61D1007D800B6FF8F /* Assets.xcassets in Resources */,
+				F25F7ED41D1007D800B6FF8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E3688501DF0BE52031F4B0E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FA2709186CAA761A991D16B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSPaySystem/Pods-IOSPaySystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBF7EE1EE8D00207C8C636D8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSPaySystem/Pods-IOSPaySystem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25F7EC71D1007D800B6FF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25F7ED11D1007D800B6FF8F /* ViewController.swift in Sources */,
+				F25F7ECF1D1007D800B6FF8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F25F7ED21D1007D800B6FF8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25F7ED31D1007D800B6FF8F /* Base */,
+			);
+			name = Main.storyboard;
+			path = IOSPaySystem;
+			sourceTree = "<group>";
+		};
+		F25F7ED71D1007D800B6FF8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25F7ED81D1007D800B6FF8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = IOSPaySystem;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F25F7EDB1D1007D800B6FF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "IOSPaySysytem/IOSPaySystem-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F25F7EDC1D1007D800B6FF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "IOSPaySysytem/IOSPaySystem-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F25F7EDE1D1007D800B6FF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB97F8D11E5A66378DB8AB7 /* Pods-IOSPaySystem.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = IOSPaySystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlashGlobal.IOSPaySystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IOSPaySysytem/IOSPaySystem-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F25F7EDF1D1007D800B6FF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EEE5EC04BF19940C97ABDDC /* Pods-IOSPaySystem.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = IOSPaySystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SlashGlobal.IOSPaySystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IOSPaySysytem/IOSPaySystem-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25F7EC61D1007D800B6FF8F /* Build configuration list for PBXProject "IOSPaySystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25F7EDB1D1007D800B6FF8F /* Debug */,
+				F25F7EDC1D1007D800B6FF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25F7EDD1D1007D800B6FF8F /* Build configuration list for PBXNativeTarget "IOSPaySystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25F7EDE1D1007D800B6FF8F /* Debug */,
+				F25F7EDF1D1007D800B6FF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25F7EC31D1007D800B6FF8F /* Project object */;
+}
