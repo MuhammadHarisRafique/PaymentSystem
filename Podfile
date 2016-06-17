@@ -8,5 +8,6 @@ target 'IOSPaySystem' do
   # Pods for IOSPaySystem
 
   pod 'Braintree'
+  pod 'Alamofire'
 
 end

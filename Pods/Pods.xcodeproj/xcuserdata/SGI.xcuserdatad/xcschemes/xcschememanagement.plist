@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Braintree-Braintree-Drop-In-Localization.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,12 +37,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6A04C96C145A9E86FE21431D731D86B0</key>
+		<key>718D302F2AF22AAB733FDC961931108D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>718D302F2AF22AAB733FDC961931108D</key>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ADE6FCE194B684C529349F3DC55731C1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
