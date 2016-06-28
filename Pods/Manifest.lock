@@ -20,13 +20,13 @@ PODS:
     - Braintree/Core
 
 DEPENDENCIES:
-  - Alamofire
+  - Alamofire (~> 3.0)
   - Braintree
 
 SPEC CHECKSUMS:
   Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
   Braintree: 05791bdc6d43c3faf2f802dd2d687e9f619f7f57
 
-PODFILE CHECKSUM: e3e3186e36e27a10f7ecd54d80b0e5f877f374e5
+PODFILE CHECKSUM: fa061d9f4e062ff1d02a87f9a969bc57a1d9de74
 
 COCOAPODS: 1.0.0
